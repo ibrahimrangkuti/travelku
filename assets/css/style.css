@@ -171,7 +171,7 @@ h1 {
   }
 
   .nav-menu.active {
-    display: inline-block;
+    display: block;
     background-color: black;
     border-radius: 15px;
     width: 100%;
