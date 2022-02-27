@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 2px 0;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.btn-primary {
+  background: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 20px;
+  color: #fff;
+  transition: all 0.6s;
+}
+
+.btn-primary:hover {
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 20px;
+  color: black;
+}
+
+.nav-logo a {
+  font-size: 44px;
+  font-weight: 600;
+  float: left;
+}
+
+.nav-logo .btn-menu {
+  display: none;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-link {
+  float: left;
+  padding: 0 20px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  line-height: 80px;
+}
+
+section {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex-wrap: wrap;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.center h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .form-group {
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+form button {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 15px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+form p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form p a {
+  font-weight: bold;
+}
+
+#home svg {
+  width: 600px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+#home .right {
+  margin-top: 150px;
+}
+
+#home .right p {
+  margin-top: -30px;
+  width: 70%;
+  padding: 40px 0;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  .nav-menu.active {
+    background-color: black;
+    border-radius: 15px;
+    width: 100%;
+    transition: all 1s ease;
+  }
+
+  .nav-item .nav-link a {
+    color: white;
+  }
+
+  .btn-primary {
+    display: none;
+  }
+
+  .row {
+    display: block;
+  }
+
+  section {
+    margin-bottom: 150px;
+  }
+
+  #home svg {
+    width: 350px;
+    max-height: 500px;
+    margin: 0 1%;
+  }
+
+  #home .right {
+    margin-top: -120px;
+    text-align: center;
+  }
+
+  #home .right p {
+    margin-top: -30px;
+    width: 100%;
+    padding: 40px 0;
+    font-weight: 300;
+  }
+
+  .nav-logo .menu {
+    display: flex;
+    margin-top: 20px;
+    float: right;
+    font-size: 30px;
+  }
+
+  .nav-logo .menu .bx-x {
+    display: none;
+  }
+
+  .nav-logo .menu .bx-x.active {
+    display: block;
+  }
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: black;
+  padding: 40px 40px;
+  height: 100vh;
+}
+
+.sidebar a {
+  color: white;
+}
+
+.side-logo {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.side-logo {
+  color: white;
+  font: 28px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.side-menu {
+  width: 100%;
+  margin-top: 40px;
+  line-height: 80px;
+}
+
+.side-link i {
+  color: white;
+}
+
+.content {
+  padding: 50px 40px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.table {
+  width: 100%;
+  padding: 15px 15px;
+}
+
+.table tr th {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 100px;
+}
+
+.table tr td {
+  padding: 20px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-edit {
+  font-size: 14px;
+  width: 100%;
+  background-color: orange;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.btn-delete {
+  font-size: 14px;
+  width: 100%;
+  background-color: red;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: white;
+}
