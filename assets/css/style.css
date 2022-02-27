@@ -162,6 +162,9 @@ h1 {
     width: 100%;
     overflow-x: hidden;
   }
+  .btn-nav {
+    display: none;
+  }
 
   .nav-menu.active {
     background-color: black;
@@ -171,11 +174,7 @@ h1 {
   }
 
   .nav-item .nav-link a {
-    color: white;
-  }
-
-  .btn-primary {
-    display: none;
+    color: #ffffff;
   }
 
   .row {
